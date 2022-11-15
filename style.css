@@ -70,9 +70,7 @@ section.discussion__wrapper {
     justify-content: space-between;
 }
 
-.discussion__answered{
 
-}
 .discussion__answered{
     display: flex;
     justify-content: center;
@@ -93,9 +91,6 @@ section.discussion__wrapper {
     padding: 15px 25px;
 }
 
-.form__input--wrapper {
-
-}
 .form_input_contianer{
     display:  flex;
     justify-content: space-between;
