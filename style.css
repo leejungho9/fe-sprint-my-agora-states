@@ -71,9 +71,6 @@ section.discussion__wrapper {
 }
 
 .discussion__answered{
-
-}
-.discussion__answered{
     display: flex;
     justify-content: center;
     align-items: center;
@@ -93,9 +90,6 @@ section.discussion__wrapper {
     padding: 15px 25px;
 }
 
-.form__input--wrapper {
-
-}
 .form_input_contianer{
     display:  flex;
     justify-content: space-between;
@@ -159,12 +153,12 @@ input[type="submit"]:hover{
     cursor: pointer;
 
 }
+
 .nav_pagination{
     display: flex;
     justify-content: center;
     align-items: center;
 }
-
 
 
 header {
@@ -188,7 +182,6 @@ h1{
     font-size: 70px;
     color:#B1B2FF; 
     text-shadow: 0 1px 0 rgb(7, 7, 7),
-   
                  0 10px 10px rgba(0, 0, 0, .4);
   }
   .page-item {
@@ -201,23 +194,11 @@ h1{
   h1 span:nth-child(1) {  color : #B1B2FF;  animation-delay: .2s; }
   h1 span:nth-child(2) {  color : #AAC4FF;  animation-delay: .4s; }
   h1 span:nth-child(3) {  color : #D2DAFF;animation-delay: .6s; }
-  h1 span:nth-child(4) { animation-delay: .8s; }
-  h1 span:nth-child(5) { animation-delay: .10s; }
-  h1 span:nth-child(6) { animation-delay: .12s; }
-  h1 span:nth-child(7) { animation-delay: .14s; }
 
   @keyframes bounce {
     100% {
       top: -20px;
-      text-shadow: 0 1px 0 rgb(0, 0, 0),
-                   0 2px 0 #CCC,
-                   0 3px 0 #CCC,
-                   0 4px 0 #CCC,
-                   0 5px 0 #CCC,
-                   0 6px 0 #CCC,
-                   0 7px 0 #CCC,
-                   0 8px 0 #CCC,
-                   0 9px 0 #CCC,
+      text-shadow: 0 1px 0 rgb(0, 0, 0),     
                    0 50px 25px rgba(0, 0, 0, .2);
     }
   }
