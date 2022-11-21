@@ -22,7 +22,7 @@ a:hover {
 
 
 main {
-    display: flex;
+    display: flex !important;
     flex-direction: column;
     align-items: center;
     justify-content: center;
@@ -159,7 +159,11 @@ input[type="submit"]:hover{
     cursor: pointer;
 
 }
-
+.nav_pagination{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
 
 
 
@@ -187,8 +191,12 @@ h1{
    
                  0 10px 10px rgba(0, 0, 0, .4);
   }
-  
-
+  .page-item {
+    cursor: pointer;
+  }
+  .page-link.active{
+    color : red;
+  }
 
   h1 span:nth-child(1) {  color : #B1B2FF;  animation-delay: .2s; }
   h1 span:nth-child(2) {  color : #AAC4FF;  animation-delay: .4s; }
