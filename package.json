@@ -4,7 +4,8 @@
   "description": "",
   "main": "script.js",
   "scripts": {
-    "build": "webpack",
+    "depoly": "gh-pages -d build",
+    "build": "webpack --mode production",
     "test": "echo \"Error: no test specified\" && exit 1"
   },
   "repository": {
@@ -17,10 +18,13 @@
   "bugs": {
     "url": "https://github.com/leejungho9/fe-sprint-my-agora-states/issues"
   },
-  "homepage": "https://github.com/leejungho9/fe-sprint-my-agora-states#readme",
+  "homepage": "https://leejungho9.github.io/fe-sprint-my-agora-states",
   "devDependencies": {
     "css-loader": "^6.7.3",
     "html-webpack-plugin": "^5.5.0",
-    "style-loader": "^3.3.1"
+    "push-dir": "^0.4.1",
+    "style-loader": "^3.3.1",
+    "webpack": "^5.75.0",
+    "webpack-cli": "^5.0.1"
   }
 }
